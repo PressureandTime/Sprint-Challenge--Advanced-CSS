@@ -26,6 +26,20 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media @mobile {
+      .img2{
+        display: none;
+      }
+      .img3{
+        display: none;
+      }
+
+      .img1{
+        width: 91%;
+      }
+
+    }
+
     img {
       width: 28%;
       margin: 20px 2.5%;
@@ -53,6 +67,11 @@
     display: flex;
     justify-content: center;
 
+    @media @mobile {
+      .flex-direction-column(column-reverse);
+ 
+    }
+
     .walk-text {
       width: 50%;
      
@@ -75,6 +94,9 @@
           color:@ebony-clay;
         }
       
+        @media @mobile {
+          width: 220%;
+        }
        
       }
     }
@@ -87,6 +109,11 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+       
+        @media @mobile {
+          width: 220%;
+
+        }
       }
     }
   }
