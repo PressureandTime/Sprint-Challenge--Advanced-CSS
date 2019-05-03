@@ -1,1 +1,26 @@
 // Mixins Here
+
+.flex-justify-content(@justifyContent) {
+    display: flex;
+    justify-content: @justifyContent;
+    
+}
+
+.flex-direction-column(@column) {
+    display: flex;
+    flex-direction: @column;
+}
+
+
+.buttonParametric(@mediumPadding, @largeFontSize) {
+    display: flex;
+    border: @myBorder;
+    border-radius: @mediumPadding;
+    font-size: @largeFontSize;
+    padding: @mediumPadding;
+    width: 30%;
+    background-color: @btn-bg-color;
+    color: @sea-shell;
+    cursor: pointer;
+      
+}
