@@ -1,16 +1,15 @@
 // Navigation code here
 
 .navigation {
-    display: flex;
-    flex-direction: column;
+    .flex-direction-column(column);
     margin: 0 auto;
     width: 40%;
     
 }
 
+
 .heading {
-    display: flex;
-    justify-content: center;
+    .flex-justify-content(center);
     padding: @mediumPadding;
 
     h1 {
@@ -25,6 +24,7 @@ nav {
 
     a {
         font-size: @largeFontSize;
+        padding: @smallPadding;
     }
     
 }
