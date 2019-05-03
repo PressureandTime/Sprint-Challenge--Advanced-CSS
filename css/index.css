@@ -248,7 +248,12 @@ footer {
   width: 30%;
   background-color: #22283A;
   color: #F1F1F1;
+  cursor: pointer;
   justify-content: center;
+}
+.home .walk .walk-text .btn :hover {
+  background-color: #81848E;
+  color: #23293B;
 }
 .home .walk .walk-img {
   width: 46%;
